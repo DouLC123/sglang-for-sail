@@ -52,6 +52,8 @@ def check_mega_moe_compat(server_args: ServerArgs) -> None:
 MEGA_MOE_NO_FALLBACK_ARCHS = frozenset(
     {
         "DeepseekV4ForCausalLM",
+        "GlmMoeDsaForCausalLM",
+        "Glm5NextForConditionalGeneration",
         "InternS2PreviewForConditionalGeneration",
         "MellumForCausalLM",
         "Qwen2MoeForCausalLM",
